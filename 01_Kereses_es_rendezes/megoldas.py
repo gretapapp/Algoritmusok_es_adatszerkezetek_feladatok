@@ -22,9 +22,9 @@ def count_subarrays_with_at_most_k_distinct(n, k, array):
 
     return count
 
-#Bemenet
+#Bemenet beolvasása
 n, k = map(int, input().split())
 array = list(map(int, input().split()))
 
-#Kimenet
+#Eredmény kiírása
 print(count_subarrays_with_at_most_k_distinct(n, k, array))
